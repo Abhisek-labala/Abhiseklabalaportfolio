@@ -311,7 +311,8 @@ span{
 }
 .about-img img{
     width: 20vw;
-    height: 30vw;
+    height: 20vw;
+    border-radius: 50%;
 
 }
 .heading
@@ -758,7 +759,7 @@ outline-color: var(--white-color);
         margin-top:20rem;
     }
     section{
-        padding: 10rem 3%;
+        padding: 15rem 7%;
     }
     .home .profession-container .profession-box
     {
@@ -895,7 +896,7 @@ html
     transform: rotate(0deg)translate(5px,-335px);
 }
 section{
-    padding: 5rem 3%;
+    padding: 10rem 3%;
 }
 .contact form .input-box input
 {
@@ -913,7 +914,7 @@ section{
         margin-top: 10rem;
     }
     section{
-        padding: 5rem 3%;
+        padding: 10rem 3%;
     }
    
     .about-img img
@@ -933,6 +934,9 @@ section{
 
 @media(max-width:365px)
 {
+    section{
+        padding: 10rem 3%;
+    }
     .home
     {
         margin-top: 10rem;
